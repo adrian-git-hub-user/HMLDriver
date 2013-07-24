@@ -13,9 +13,9 @@ public class Driver {
         
 		new WekaKmeansDriver().runKMeans(6);
 		
-		JaccardCoefficient.main(args);
+		//JaccardCoefficient.main(args);
 		
-		new DendrogramPanel().createCluster(new Data().getDistances9by9() , new Combinations().generateStringHeadersForClustering(9));
+		//new DendrogramPanel().createCluster(new Data().getDistances9by9() , new Combinations().generateStringHeadersForClustering(9));
 	}
 
 }
